@@ -1,0 +1,15 @@
+.shop_container{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: center; */
+    gap: 10px;
+}
+.side_shop_container{
+    width: 25%;
+}
+
+.products_container_side{
+    width: 75%;
+}

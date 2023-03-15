@@ -1,0 +1,131 @@
+.modal-cart{
+    width: 450px;
+}
+
+.full_dev{
+    /* height: 90vh; */
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.added_product_cart_container{
+    max-height: 300px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+.added_product_cart_container::-webkit-scrollbar-track {
+    /* border: 5px solid #000; */
+    padding: 1px 0;
+    /* background-color: #404040; */
+    scroll-behavior: smooth;
+    border-radius: 5px;
+  }
+  
+.added_product_cart_container::-webkit-scrollbar {
+    width: 3px;
+    height: 1px;
+    scroll-behavior: smooth;
+    border-radius: 5px;
+  }
+  
+.added_product_cart_container::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    /* box-shadow: inset 0 0 6px rgba(0,0,0,.3); */
+    background-color:#599078;
+    /* border: 1px solid #000; */
+    scroll-behavior: smooth;
+  }
+
+.underline{
+    width: 95%;
+    margin: 20px auto;
+    border: 1px solid #eee;
+    height: 1px;
+}
+
+.underline2 {
+    width: 95%;
+    margin: 5px auto;
+    border: 1px solid #eee;
+    height: 1px;
+}
+
+.sub_total_account{
+    width: 95%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sub_total_account > h4 {
+    color: #599078;
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.cart_container_icon{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+}
+
+.cart_length_cart_container{
+    position: absolute;
+    right: -25px;
+    top: 2px;
+    color: yellow;
+    z-index: 5;
+    background: #f4c340;
+    border: 2px solid #fff;
+    border-radius: 50rem!important;
+    transform: translate(-50%,-50%)!important;
+    font-size: 9px;
+    padding: 2px 7px;
+}
+
+.free_shipping_details{
+    width: 95%;
+    margin: 10px auto;
+    margin-top: 30px;
+}
+.free_shipping_details > p{
+    font-weight: 500;
+    font-family: cursive;
+}
+
+.continueShopping_and_checkOut_wrap {
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.continueShopping_and_checkOut_wrap > div > button{
+    outline: 0;
+    border: 0;
+    padding: 13px 45px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.continueShopping_btn> button{
+    background-color: #efde35;
+    color: #333;
+}
+
+.checkout_btn> button{
+    background-color: #6c5ebc;
+    color: #ddd;
+}

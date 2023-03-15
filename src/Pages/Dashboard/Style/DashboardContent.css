@@ -1,0 +1,142 @@
+.dashboard-sidebar-and-content-section{
+    width: 95%;
+    margin: 0 auto;
+    height: 130vh;
+    display: grid;
+    grid-template-columns: 130px 4fr;
+    position: relative;
+    background-color: #fff;
+    gap: 20px;
+}
+
+
+
+
+.dashboard-sidebar-section > div > nav > ul > li > a{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.dashboard-sidebar-section > div > nav > ul > li {
+    list-style: none;
+}
+
+.dashboard-sidebar-section > div > nav {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background-color: #ddd;
+    width: 90px;
+    overflow: hidden;
+    transition: width .2s linear;
+    box-shadow:0 20px 35px rgba(0, 0, 0, 0.1) ;
+    width: 190px;
+}
+
+.logo{
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease;
+}
+
+.logo img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.logo > span {
+    font-weight: bold;
+    padding: 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.dashboard-sidebar-section > div > nav > ul > li > a{
+    position: relative;
+    color: rgb(85, 83, 83);
+    display: table;
+    padding: 15px;
+    width: 900px;
+}
+
+.dashboard-sidebar-section > div > nav > ul > li > span{
+    position: relative;
+    color: rgb(85, 83, 83);
+    display: table;
+    padding: 15px;
+    width: 900px;
+}
+.dashboard-sidebar-section > div > nav > ul > li > a > span {
+    position: relative;
+    width: 60px;
+    height: 40px;
+    top: 14px;
+    font-size: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dashboard-sidebar-section > div > nav > ul > li > a > .fas {
+    position: relative;
+    width: 60px;
+    height: 40px;
+    top: 14px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.dashboard-sidebar-section > div > nav > ul > li > a > .cart-fa{
+    position: relative;
+    width: 60px;
+    height: 40px;
+    top: 14px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.dashboard-sidebar-section > div > nav > ul > li > span > .cart-fa{
+    position: relative;
+    width: 60px;
+    height: 40px;
+    top: 14px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.nav-item {
+    position: relative;
+    top: 12px;
+    margin-left: 15px;
+    font-size: 11px;
+}
+
+.dashboard-sidebar-section > div > nav > ul > li > a:hover{
+    background-color: rgba(0, 0, 255, 0.526);
+    color: #fff;
+}
+
+.dashboard-sidebar-section > div > nav > ul > li > span:hover{
+    background-color: rgba(0, 0, 255, 0.526);
+    color: #fff;
+}
+
+.dashboard-sidebar-section > div > nav:hover{
+    width: 192px;
+    transition: all 0.6s ease;
+}
+
+.sidebar-logout{
+    /* position: absolute !important; */
+    /* bottom: 0; */
+}
+
+.dashboard-content-section{
+    background-color: #eee;
+}

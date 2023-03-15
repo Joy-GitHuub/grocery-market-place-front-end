@@ -1,0 +1,73 @@
+.popup_container{
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.645);
+    height: 100vh;
+}
+
+.popup_card{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+    background-color: white;
+    padding: 40px 50px;
+    border-radius: 10px;
+}
+
+.first_popup_side >img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.close_popup_icon{
+    position: relative;
+    top: -220px;
+    left: 420px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    padding: 5px 10px;
+    /* background-color: rgba(51, 51, 51, 0.234); */
+}
+
+.close_popup_icon:hover >i{
+    color: gray;
+}
+
+.second_popup_side {
+    margin-left: 20px;
+}
+
+.second_popup_side>h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.second_popup_side >p{
+    font-family: cursive;
+    margin: 20px 0px;
+    line-height: 1.3rem;
+    font-weight: 500;
+}
+
+.popup_email_input_wrap >input{
+    outline: 0;
+    border: 1px solid gray;
+    padding: 7px 10px;
+    width: 300px;
+}
+.popup_email_input_wrap>button{
+    outline: 0;
+    border: 1px solid red;
+    padding: 7px  20px;
+    background-color: red;
+    border-radius: 0px 5px 5px 0;
+    color: white;
+    cursor: pointer;
+}

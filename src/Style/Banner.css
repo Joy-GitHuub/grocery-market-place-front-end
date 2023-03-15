@@ -1,0 +1,24 @@
+.banner-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px auto;
+    padding: 30px 20px;
+    height: 100%;
+    /* background-color: rgba(186, 176, 176, 0.22); */
+    /* margin-bottom: 40px; */
+}
+.side-image> img{
+    width: 280px;
+    height: 380px;
+    border-radius: 10px;
+}
+
+/* .left-category-side{
+    width: 100%;
+}
+
+.left-category-side > img {
+    width: 200px
+} */

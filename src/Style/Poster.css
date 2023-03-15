@@ -1,0 +1,45 @@
+.poster-wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 80px;
+    background-color: #f8efea;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.poster-wrap > .image-warp{
+    overflow: hidden;
+}
+
+.poster-title-text {
+    color: #00b853;
+}
+
+.poster-wrap >.image-warp > img{
+    /* object-fit: contain; */
+    /* width: 200px; */
+    /* width: 200px; */
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    height: 90px;
+    object-fit: cover;
+    object-position: center center;
+    position: relative;
+    top: 9px;
+    z-index: 1;
+}
+
+.poster-wrap > button {
+    background-color: #00b853;
+    outline: 0;
+    border: 0px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #ddd;
+    font-weight: 500;
+}

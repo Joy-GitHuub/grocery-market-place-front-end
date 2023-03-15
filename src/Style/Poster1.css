@@ -1,0 +1,61 @@
+.poster1_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.first-poster {
+    position: relative;
+    font-family: Arial;
+    margin: 0px 10px;
+  }
+
+  .first-poster>img{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+    object-position: top;
+    border-radius: 10px;
+  }
+  
+  .text_container {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .text_container> h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    word-spacing: .5rem;
+    margin-bottom: 10px;
+  }
+
+  .text_container>h2{
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  .text_container>p {
+    color: #333;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .text_container >button{
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    padding: 8px 18px;
+    background-color: #233a95;
+    border-radius: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }

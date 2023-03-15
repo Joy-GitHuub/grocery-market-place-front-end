@@ -1,0 +1,28 @@
+.shop_categories_container{
+    /* margin-top: 20px; */
+    /* padding-bottom: 40px; */
+    cursor: pointer;
+}
+
+.categories_cart{
+    padding: 5px 15px;
+    box-shadow: rgba(154, 154, 161, 0.015) 0px 7px 29px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgba(219, 211, 211, 0.505);
+    /* height: 500px; */
+    border-radius: 10px;
+}
+
+.categories_cart >img{
+    width: 70px;
+    object-fit: contain;
+    height: 100%;
+}
+
+.categories_cart > h4{
+    text-align: center;
+    margin-top: 20px;
+}

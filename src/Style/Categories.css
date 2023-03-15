@@ -1,0 +1,26 @@
+.categories_show_container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 95%;
+    margin: 50px auto;
+    /* padding-bottom: 100px; */
+}
+
+.categories_show_container >.menu_bar{
+    width: 25%;
+    border: 1px solid rgba(128, 128, 128, 0.275);
+    margin: 0px 20px 0px 0px;
+}
+
+.categories_show_container >.slider_bar{
+    width: 75%;
+}
+
+.slider_bar > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 20px;
+}

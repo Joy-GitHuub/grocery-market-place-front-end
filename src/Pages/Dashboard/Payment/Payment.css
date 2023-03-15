@@ -1,0 +1,97 @@
+.payment_methods_section{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.payment_methods_section > h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 22px;
+    color: rgb(99, 96, 233);
+}
+
+.payment_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:25px;
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgb(99, 96, 233) 60%, rgba(98, 96, 233, 0.833) 40.1%);
+  }
+  
+  .payment_container form{
+    padding:20px;
+    width:700px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  }
+  
+  .payment_container form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+  }
+  
+  .payment_container form .row .col{
+    flex:1 1 250px;
+  }
+  
+  .payment_container form .row .col .title{
+    font-size: 20px;
+    color:#333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+  }
+  
+  .payment_container form .row .col .inputBox{
+    margin:15px 0;
+  }
+  
+  .payment_container form .row .col .inputBox span{
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .payment_container form .row .col .inputBox input{
+    width: 100%;
+    border:1px solid #ccc;
+    padding:10px 15px;
+    font-size: 15px;
+    text-transform: none;
+  }
+  
+  .payment_container form .row .col .inputBox input:focus{
+    border:1px solid #000;
+  }
+  
+  .payment_container form .row .col .flex{
+    display: flex;
+    gap:15px;
+  }
+  
+  .payment_container form .row .col .flex .inputBox{
+    margin-top: 5px;
+  }
+  
+  .payment_container form .row .col .inputBox img{
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+  }
+  
+  .payment_container form .submit-btn{
+    width: 100%;
+    padding:12px;
+    font-size: 17px;
+    background: rgb(99, 96, 233);
+    color:#fff;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  .payment_container form .submit-btn:hover{
+    background: #2ecc71;
+  }

@@ -1,0 +1,48 @@
+.manage_profile_section {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.manage_profile_header {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+
+.manage_user_table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+.manage_user_table td, .manage_user_table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+.manage_user_table tr:nth-child(even){background-color: #f2f2f2;}
+  
+.manage_user_table tr:hover {background-color: #ddd;}
+  
+.manage_user_table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(88, 88, 228);
+    color: white;
+  }
+
+.manage_user_table td {
+    text-align: left;
+    font-size: 12px;
+}
+
+.manage_user_table td > div > select {
+  cursor: pointer;
+  border: 1px solid rgba(51, 51, 51, 0.52);
+  padding: 0px 5px;
+}

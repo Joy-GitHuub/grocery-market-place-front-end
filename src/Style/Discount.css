@@ -1,0 +1,36 @@
+.extra_part_container{
+    width: 95%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.promotion_discount_product {
+    background-color: #d8d2ff;
+    padding: 10px;
+}
+.promotion_discount_product > h3{
+    color: #8199e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.extra_discount_product{
+    background-color: #c0f0dc;
+    padding: 10px;
+}
+
+.extra_discount_product >h3{
+    color: #70b9cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: initial;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

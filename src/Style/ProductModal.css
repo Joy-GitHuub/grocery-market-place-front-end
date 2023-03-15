@@ -1,0 +1,134 @@
+.product_details_modal_container{
+    width: 850px;
+    height: 490px;
+    padding: 60px;
+    overflow: hidden;
+}
+
+.product_details_modal_wrap{
+    display: flex;
+    align-content: flex-start;
+}
+.product_details_image_container{
+    width: 40%;
+}
+.select_image_show {
+    width: 100%;
+    /* height: 100%; */
+}
+.select_image_show >img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: fit-content;
+    object-fit: cover;
+}
+
+.all_image_select_option{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product_details_container_wrap{
+    margin-left: 20px;
+}
+
+.product_details_info_name > h1{
+    margin-top: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.4;
+    color: #161616;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product_details_info_price_stock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+
+.price_container_info > .regular_price_color{
+    color: #6c5ebc92;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-right: 10px; */
+}
+
+.price_container_info> .regular_price_color::after{
+    content: ' – ';
+    color: #6c5ebc92;
+    font-weight: 600;
+    width: 65px;
+}
+
+.price_container_info> .discount_price_color{
+    color: #6c5ebc;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product_details_info_stock{
+    color: #599078;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.product_details_info_short > p{
+    font-size: 15px;
+    font-family:cursive;
+    color: #343131;
+    font-weight: 500;
+    line-height: 1.5;
+    opacity: .8;
+    margin-top: 20px;
+}
+
+.product_add_to_cart_button >button{
+    outline: 0;
+    border: 0;
+    padding: 7px 20px;
+    background-color: #161616;
+    color: #ddd;
+    border-radius: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.product_more_info{
+    color: #333;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.product_more_info>h4{
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.success-toast-msg{
+    color: #599078;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    margin-left: 15px;
+}
+.discount_percent_modal{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 14px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: yellow;
+    padding: 5px 10px;
+}

@@ -1,0 +1,85 @@
+.my_order_page_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.my_order_page_header > h3{
+    font-weight: 500;
+    color: #333;
+}
+
+.my_order_page_order_table{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.my_order_page_order_table > table {
+    padding: 10px;
+    width: 100%;
+}
+
+.customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .customers td, .customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+.customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+.customers tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+  
+.customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #2d3bd5;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+  }
+
+.customers td{
+    font-size: 12px;
+}
+
+.action-btn{
+    outline: 0;
+    border: 0;
+    background-color: #6c5ebc;
+    padding: 3px 20px;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.pending{
+    background-color: rgb(176, 171, 171);
+    color: white;
+}
+
+.Completed {
+    background-color: rgb(17, 203, 17);
+    color: white;
+}
+
+.shipping{
+    background-color: rgba(0, 0, 255, 0.611);
+    color: white;
+}
+
+.delivery {
+    background-color: rgb(17, 203, 17);
+    color: white;
+}

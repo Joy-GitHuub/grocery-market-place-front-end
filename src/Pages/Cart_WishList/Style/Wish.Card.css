@@ -1,0 +1,12 @@
+.wish_list_container{
+    color: #599078;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.wish_list_style_color{
+    color: #599078;
+    font-size: 15px;
+    margin-left: 30px;
+    cursor: pointer;
+}

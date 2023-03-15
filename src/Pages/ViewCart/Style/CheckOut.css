@@ -1,0 +1,16 @@
+.my_added_cart_product_container {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    width: 95%;
+    margin: 20px auto;
+    /* place-items: center; */
+    gap: 25px;
+}
+
+.cart_product_price_wrap{
+    width: 100%;
+    max-height: 380px;
+    position: sticky;
+    padding: 30px 15px;
+    box-shadow: rgba(61, 60, 60, 0.404) 0px 2px 8px 0px;
+}
